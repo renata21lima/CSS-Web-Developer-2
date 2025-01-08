@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    font-family: "roboto";
+}
+
+/* NavBar */
+nav{
+    background-color: #FFFFFF;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+/* Menu e Logo */
+.menu-logo{
+    margin:16px 0 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="logo"]{
+    width: 90px;
+    height: 20px;
+    margin-left: 32px;
+}
+
+.barra-pesquisa {
+    width: 404px;
+    height: 40px;
+    display: flex; 
+    align-items: center;  
+} 
+
+input[type="text"]{
+    width: 348px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    padding: 0;
+}
+
+button[type="submit"]{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    width: 57px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Perfil */
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 11px 24px;
+    gap: 24px;
+}
+
+/* Imagens */
+img[alt="sininho"], 
+img[alt="camera"], 
+img[alt="pesquisar"], 
+img[alt="menu"],
+img[alt="like-button"],
+img[alt="dislike-button"],
+img[alt="compartilhar-button"],
+img[alt="download-button"]{
+    width: 24px;
+    height: 24px;
+}
+
+img[alt="imagem perfil"]{
+    width: 34px;
+    height: 34px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 26px 75px ;
+}
+
+.video h1{
+    font-size: 20px;
+}
+
+.video-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 902px;
+    height: 42px;
+    margin-bottom: 16px;
+}
+
+.video-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.informacao p{
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+
+img[alt="perfil-canal"]{
+    width: 42px;
+    height: 42px;
+}
+
+.inscrever{
+    display: flex;
+    align-items: center;
+}
+
+button[type="button"]{
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #CC0000;
+    border: none 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.like , .dislike, .compartilhar,  .download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.info{
+    font-size: 16px;
+}
+
+.desc{
+    font-size: 16px;
+    color: #515151;
+    width: 510px;
+    height: 64px;
+}
