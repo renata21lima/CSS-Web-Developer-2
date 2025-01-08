@@ -87,7 +87,8 @@ img[alt="imagem perfil"]{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 25px;
     margin: 26px 75px ;
 }
 
@@ -162,4 +163,22 @@ button[type="button"]{
     color: #515151;
     width: 510px;
     height: 64px;
+}
+
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 26px;
+}
+
+.sidebar p{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+img[alt="thumb"]{
+    width: 160px;
+    height: 90px;
 }
