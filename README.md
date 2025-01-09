@@ -6,4 +6,3 @@ figma: https://www.figma.com/design/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---
 
 Através deste projeto, pude explorar a versatilidade do CSS para transformar um layout estático em uma página web interativa e visualmente atraente. A experiência de trabalhar com o Figma e o CSS me proporcionou uma base sólida para dar os próximos passos na minha jornada como desenvolvedor web
 
-**link:** https://renata21lima.github.io/CSS-Web-Developer/
