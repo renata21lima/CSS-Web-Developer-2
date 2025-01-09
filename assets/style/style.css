@@ -165,17 +165,32 @@ button[type="button"]{
     height: 64px;
 }
 
+aside{
+    min-width: 160px;
+    height: 938px;
+}
+
 .sidebar{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     gap: 16px;
-    margin-top: 26px;
 }
 
 .sidebar p{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 16.41px;
+}
+
+.titulo{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+.texto-info{
+    color: #515151;
+    font-size: 12px;
+    line-height: 14.06px;
 }
 
 img[alt="thumb"]{
